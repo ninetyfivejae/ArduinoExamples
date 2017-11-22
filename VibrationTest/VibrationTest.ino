@@ -69,7 +69,7 @@ SoftwareSerial mySerial(blueTx, blueRx);
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(36, PIN, NEO_RGBW + NEO_KHZ800);
 
-byte data[] = { B01100000/*좌측6개*/, B00000000/*우측7개*/};
+byte data[] = { B00000000/*좌측6개*/, B00001000/*우측7개*/};
 
 void setup() 
 {
